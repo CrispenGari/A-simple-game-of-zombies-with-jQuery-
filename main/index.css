@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/slider1.jpg);
+    position: relative;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+button{
+    min-width: 60%;
+    height: 30px;
+    border-radius: 2px;
+    background-color: black;
+    color: wheat;
+    margin: 10%;
+}
+.container{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    min-width: 15%;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.points ,.timer{
+    width: 100%;
+    padding: 5%;
+    background: rgba(0, 0, 0, 0.788);
+    margin: 2%;
+}
+.game{
+    display: flexbox;
+    float: left;
+}
+.gameroom{
+    width: 85%;
+    height: 20px;
+    float: right;
+    height: 50vh;
+    background: navy;
+    opacity: 30%;
+    position: relative;
+}
+.zombie1, .zombie2, .zombie3{
+    background-color:green;
+    min-width: 3%;
+    height: 8%;
+    margin: 1%;
+    border-radius: 60%;
+    position: absolute;
+    padding: 0.25%;
+}
+.me, .point2, .point3,.point1, .time1,.time2, .time3{
+    background-color: green;
+    min-width: 3%;
+    height: 8%;
+    margin: 1%;
+    border-radius: 60%;
+    padding: 0.25%;
+    position: absolute;
+}
+.rules{
+    min-width: 20%;
+    margin: auto;
+    background: green;
+    position: absolute;
+    top: 40vh;
+    padding: 3%;
+    border-radius: 3%;
+}
